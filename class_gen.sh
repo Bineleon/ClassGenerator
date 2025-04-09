@@ -30,7 +30,7 @@ class ${CLASS_NAME}
 
 };
 
-#endif // ${INCLUDE_GUARD}
+#endif
 EOF
 
 # .cpp
