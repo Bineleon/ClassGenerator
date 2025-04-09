@@ -46,7 +46,7 @@ ${CLASS_NAME}::${CLASS_NAME}(void)
 ${CLASS_NAME}::${CLASS_NAME}(const ${CLASS_NAME}& src)
 {
     std::cout << "${CLASS_NAME} copy constructor called" << std::endl;
-    *this = other;
+    *this = src;
 }
 
 ${CLASS_NAME}& ${CLASS_NAME}::operator=(const ${CLASS_NAME}& rhs)
