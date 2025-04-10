@@ -9,6 +9,8 @@ CLASS_NAME=$1
 HEADER_FILE="${CLASS_NAME}.hpp"
 SOURCE_FILE="${CLASS_NAME}.cpp"
 INCLUDE_GUARD="$(echo ${CLASS_NAME}_HPP | tr '[:lower:]' '[:upper:]')"
+GREEN="\e[1;32m"
+RESET="\e[0m"
 
 # .hpp
 
@@ -62,4 +64,4 @@ ${CLASS_NAME}::~${CLASS_NAME}(void)
 }
 EOF
 
-echo "\e[32m${HEADER_FILE} and ${SOURCE_FILE} created successfully.\e[0m"
+echo -e "${GREEN}${HEADER_FILE} and ${SOURCE_FILE} created successfully.${RESET}"
