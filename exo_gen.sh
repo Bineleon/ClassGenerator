@@ -41,6 +41,9 @@ EOF
 echo -e "${GREEN}✔️ main.cpp created with #include \"${CLASS_NAME}.hpp\"${RESET}"
 
 cat <<EOF > Makefile
+RESET				= \e[0m\033[0m
+GREEN				= \033[0;32m\e[1m
+
 NAME = ${EXEC_NAME}
 
 CC					= c++
@@ -64,7 +67,7 @@ DEPS				= \${OBJS:.o=.d}
 
 \${NAME}: \${OBJS}
 	@\${CC} \${FLAGS} \${OBJS} -o \${NAME}
-	@echo "\${GREEN}\${EXO_NB}		: DONE!\${RESET}"
+	@echo "\${GREEN}${EXO_NB}		: DONE!\${RESET}"
 
 all: \${NAME}
 
