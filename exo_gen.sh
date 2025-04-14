@@ -86,4 +86,4 @@ re: fclean all
 .PHONY: all clean fclean re
 EOF
 
-echo -e "${GRENN}✔️ Makefile created with NAME=${EXEC_NAME}${RESET}"
+echo -e "${GREEN}✔️ Makefile created with NAME=${EXEC_NAME}${RESET}"
