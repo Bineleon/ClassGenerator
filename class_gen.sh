@@ -79,4 +79,4 @@ ${CLASS_NAME}::~${CLASS_NAME}(void)
 }
 EOF
 
-echo -e "${GREEN}✔️${HEADER_FILE} and ${SOURCE_FILE} created successfully.${RESET}"
+echo -e "${GREEN}✔️  ${HEADER_FILE} and ${SOURCE_FILE} created successfully.${RESET}"
