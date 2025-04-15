@@ -38,7 +38,7 @@ int main(void)
 }
 EOF
 
-echo -e "${GREEN}✔️ main.cpp created with #include \"${CLASS_NAME}.hpp\"${RESET}"
+echo -e "${GREEN}✔️  main.cpp created with #include \"${CLASS_NAME}.hpp\"${RESET}"
 
 cat <<EOF > Makefile
 RESET				= \e[0m\033[0m
@@ -86,4 +86,4 @@ re: fclean all
 .PHONY: all clean fclean re
 EOF
 
-echo -e "${GRENN}✔️ Makefile created with NAME=${EXEC_NAME}${RESET}"
+echo -e "${GREEN}✔️  Makefile created with NAME=${EXEC_NAME}${RESET}"
