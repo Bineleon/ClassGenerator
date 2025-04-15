@@ -69,7 +69,7 @@ ${CLASS_NAME}::${CLASS_NAME}(const ${CLASS_NAME}& src)
 ${CLASS_NAME}& ${CLASS_NAME}::operator=(const ${CLASS_NAME}& rhs)
 {
     std::cout << "${CLASS_NAME} copy assignment operator called" << std::endl;
-        // copy members here
+        // copy attributs here
     return *this;
 }
 
